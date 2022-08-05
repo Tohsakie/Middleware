@@ -1,0 +1,8 @@
+1. What happens if another broker goes down?
+We will have an error, the server need at least three borkcers to work.
+
+2. What if you have 5 brokers and 2 go down?
+Nothing, we need at least 3 brokers.
+
+3. What if you changed the replcation factor for your topic?
+If we change the replication factor, we need to verify that the number of borkers is equal or bigger than the replication factor.
